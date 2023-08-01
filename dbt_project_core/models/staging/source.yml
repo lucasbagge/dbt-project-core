@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: northwind_data
+    description: the famouse northwind database
+    schema: dl_northwind
+    tables:
+      - name: customer
+        description: the different customer that has interacted with northwind

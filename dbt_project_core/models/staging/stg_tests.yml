@@ -1,0 +1,11 @@
+version 2:
+
+models:
+  - name: stg_customer
+    description: one unique customer pr row
+    columns:
+    - name: id
+      description: '{{ doc("order_status") }}'
+      tests:
+        - unique
+        - not_null
